@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>McBot11.Core</RootNamespace>
+    <AssemblyName>McBot11.Core</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\McBot11.Protocol\McBot11.Protocol.csproj" />
+    <ProjectReference Include="..\McBot11.Auth\McBot11.Auth.csproj" />
+    <ProjectReference Include="..\McBot11.Minecraft\McBot11.Minecraft.csproj" />
+    <ProjectReference Include="..\McBot11.OneBot11\McBot11.OneBot11.csproj" />
+  </ItemGroup>
+
+</Project>

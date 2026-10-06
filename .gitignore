@@ -1,0 +1,17 @@
+# 编译产物
+bin/
+obj/
+.vs/
+publish/
+
+# 日志
+logs/
+
+# 敏感配置（绝对禁止上传）
+config/tokens.json
+config/accounts.json
+config/config.json
+
+# 用户数据
+*.user
+*.suo

@@ -1,0 +1,38 @@
+<Window x:Class="McBot11.App.RoleSelectDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="选择使用的角色" Width="440" SizeToContent="Height" MinHeight="280"
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize"
+        Background="#FF1E1E1E" Foreground="#FFDDDDDD" FontSize="12.5">
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="#FFCCCCCC"/>
+            <Setter Property="Padding" Value="0,2"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#FF3E3E42"/>
+            <Setter Property="Foreground" Value="#FFEEEEEE"/>
+            <Setter Property="BorderBrush" Value="#FF5A5A5A"/>
+            <Setter Property="Padding" Value="12,4"/>
+            <Setter Property="Margin" Value="4,2"/>
+        </Style>
+        <Style TargetType="RadioButton">
+            <Setter Property="Foreground" Value="#FFEEEEEE"/>
+            <Setter Property="Margin" Value="4,4"/>
+        </Style>
+    </Window.Resources>
+
+    <StackPanel Margin="14">
+        <TextBlock x:Name="HintText" Foreground="#FF888888" TextWrapping="Wrap" Margin="0,0,0,6"/>
+        <Border Background="#FF252526" BorderBrush="#FF4A4A4A" BorderThickness="1" Padding="6" MinHeight="120">
+            <ScrollViewer VerticalScrollBarVisibility="Auto" MaxHeight="300">
+                <StackPanel x:Name="RolePanel"/>
+            </ScrollViewer>
+        </Border>
+        <TextBlock x:Name="ErrorText" Foreground="#FFFF6666" TextWrapping="Wrap" Visibility="Collapsed" Margin="0,6,0,0"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+            <Button x:Name="OkButton" Content="确定" Width="96" Click="OnOk"/>
+            <Button Content="取消" Width="80" Click="OnCancel"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

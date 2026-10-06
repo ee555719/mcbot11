@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>McBot11.OneBot11</RootNamespace>
+    <AssemblyName>McBot11.OneBot11</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\McBot11.Protocol\McBot11.Protocol.csproj" />
+  </ItemGroup>
+
+</Project>

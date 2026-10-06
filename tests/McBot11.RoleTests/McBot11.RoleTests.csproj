@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>McBot11.RoleTests</RootNamespace>
+    <AssemblyName>McBot11.RoleTests</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\McBot11.Auth\McBot11.Auth.csproj" />
+    <ProjectReference Include="..\..\src\McBot11.Core\McBot11.Core.csproj" />
+  </ItemGroup>
+
+</Project>

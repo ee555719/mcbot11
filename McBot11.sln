@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "McBot11.Protocol", "src\McBot11.Protocol\McBot11.Protocol.csproj", "{1A1A1A1A-0001-4000-8000-000000000001}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "McBot11.Auth", "src\McBot11.Auth\McBot11.Auth.csproj", "{1A1A1A1A-0001-4000-8000-000000000002}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "McBot11.Minecraft", "src\McBot11.Minecraft\McBot11.Minecraft.csproj", "{1A1A1A1A-0001-4000-8000-000000000003}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "McBot11.OneBot11", "src\McBot11.OneBot11\McBot11.OneBot11.csproj", "{1A1A1A1A-0001-4000-8000-000000000004}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "McBot11.Core", "src\McBot11.Core\McBot11.Core.csproj", "{1A1A1A1A-0001-4000-8000-000000000005}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "McBot11.App", "src\McBot11.App\McBot11.App.csproj", "{1A1A1A1A-0001-4000-8000-000000000006}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A1A1A1A-0001-4000-8000-000000000001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A1A1A1A-0001-4000-8000-000000000006}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
